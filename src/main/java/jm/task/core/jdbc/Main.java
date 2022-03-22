@@ -11,16 +11,11 @@ public class Main {
     static UserDaoHibernateImpl UDHI = new UserDaoHibernateImpl();
 
     public static void main(String[] args) throws SQLException {
-//        UserService userService = new UserServiceImpl();
 //        UDHI.dropUsersTable();
 //        UDHI.createUsersTable();
-        UDHI.saveUser("Denis","Penis", (byte) 19);
 //        UDHI.removeUserById(1);
 //        UDHI.cleanUsersTable();
 //        userServiceImpl.createUsersTable();
-//        userServiceImpl.saveUser("Denis","Penis", (byte) 19);
-
-
-}
+    }
 
 }
